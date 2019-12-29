@@ -7,3 +7,5 @@ first_project_namespace/dist/
 first_project_import_exports/node_modules/
 first_project_import_exports/dist/
 
+first_project_webpack/node_modules/
+first_project_webpack/dist/
