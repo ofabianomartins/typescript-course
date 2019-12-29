@@ -1,2 +1,5 @@
 first_project/node_modules/
 first_project/dist/
+
+first_project_namespace/node_modules/
+first_project_namespace/dist/
