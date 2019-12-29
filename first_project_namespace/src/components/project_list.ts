@@ -1,5 +1,5 @@
 /// <reference path="base_components.ts" />
-/// <reference path="project_item.t" />
+/// <reference path="project_item.ts" />
 
 namespace App { 
     // ProjectList Class
