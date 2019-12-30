@@ -1,13 +1,14 @@
 import React from 'react';
+import { TodoList } from '../todo_list.model'
 
 import './TodoList.css';
 
 interface TodoListProps {
-    items: {id: string, text: string}[],
+    items: TodoList[],
     onDeleteTodo: (todoId: string) => void
 }
 
-const TodoList: React.FC<TodoListProps> = (props) => {
+const TodoListComponent: React.FC<TodoListProps> = (props) => {
  
     return <ul>
         { props.items.map(item => 
@@ -18,4 +19,4 @@ const TodoList: React.FC<TodoListProps> = (props) => {
     </ul>
 };
 
-export default TodoList;
+export default TodoListComponent;
